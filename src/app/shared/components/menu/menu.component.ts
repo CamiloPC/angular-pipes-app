@@ -29,8 +29,8 @@ export class MenuComponent {
         {label: 'No comunes', icon: 'pi pi-globe', routerLink: '/uncommon'}
       ]},
       {label: 'Pipes personalizados', icon: 'pi pi-cog', items: [
-        {label: 'Otro elemento', icon: 'pi pi-cog'}
+        {label: 'Otro elemento', icon: 'pi pi-cog', routerLink: '/custom'}
       ]}
     ]
   }
- }
+}
